@@ -35,7 +35,7 @@ export default {
       enableSubmit: false,
       inputs: [
         {
-          title: "Email",
+          title: "Login or email",
           name: "login",
           placeholder: "",
           initValue: "",
