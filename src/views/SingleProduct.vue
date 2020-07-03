@@ -1,6 +1,8 @@
 <template>
 <div class="container container-main">
-  <h1 class="mt-5">Single Product</h1>
+  <div class="grid">
+
+  </div>
 
 </div>
 </template>
@@ -12,5 +14,5 @@ export default {
 </script>
 
 <style>
-
+  
 </style>
