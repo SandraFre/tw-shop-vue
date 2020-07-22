@@ -45,15 +45,17 @@
         <h5>Susiję receptai:</h5>
         <div class="row p-2">
           <div class="col-md-3">
-            <img src="~@/assets/recipies/recipie-1.jpg" alt="" class="img-sm">
+            <img src="~@/assets/recipies/recipie-1.jpg" alt class="img-sm" />
           </div>
-      <div class="col-md-9">
-        <h6>Itališka daržovių sriuba „Minestrone“</h6>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas doloremque blanditiis perspiciatis! Unde, quos incidunt consequuntur iste enim deleniti exercitationem.
-          <a href="">Daugiau...</a>
-        </p>
-        
-      </div>
+          <div class="col-md-9">
+            <h6>Itališka daržovių sriuba „Minestrone“</h6>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas doloremque blanditiis perspiciatis! Unde, quos incidunt consequuntur iste enim deleniti exercitationem.
+              <a
+                href
+              >Daugiau...</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -61,10 +63,8 @@
 </template>
 
 <script>
-
 export default {
-  name: "product",
-  
+  name: "product"
 };
 </script>
 
@@ -104,12 +104,11 @@ export default {
   &__tocart {
     grid-area: tocart;
   }
-  
+
   &__recipies {
     grid-area: recipies;
     margin-top: 10px;
     padding: 10px;
-  
   }
 }
 .product-title {
@@ -146,19 +145,20 @@ export default {
   padding: 3px;
   width: 150px;
   height: 100px;
+  border-radius: 10%;
 }
 
-h5{
+h5 {
   font-weight: bold;
   padding: 5px;
   text-align: left;
 }
-h6{
+h6 {
   font-weight: bold;
   font-style: italic;
   text-align: left;
 }
-p{
+p {
   text-align: justify;
 }
 </style>
