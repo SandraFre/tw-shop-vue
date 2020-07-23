@@ -17,10 +17,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <router-link class="nav-link" to="/about">About</router-link>
-          </li>
-          <li class="nav-item">
+                    <li class="nav-item">
             <router-link class="nav-link" to="/product">Single Product</router-link>
           </li>
           <li class="nav-item">
@@ -29,11 +26,15 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/recipies">Recipies</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/about">About Us</router-link>
+          </li>
           <li class="sale nav-item">
             <router-link class="nav-link" to="/sale">
               <span class="sale">SALE</span>
             </router-link>
           </li>
+          
         </ul>
         <ul class="navbar-nav m-auto">
           <li>

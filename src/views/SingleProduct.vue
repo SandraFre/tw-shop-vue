@@ -3,7 +3,7 @@
     <div class="grid">
       <div class="grid__photo">
         <div>
-          <img class="img" src="~@/assets/singleProduct/prod1-1.jpg" alt />
+          <img class="img" src="~@/assets/img/singleProduct/prod1-1.jpg" alt />
         </div>
       </div>
       <div class="grid__title">
@@ -45,7 +45,7 @@
         <h5>Susiję receptai:</h5>
         <div class="row p-2">
           <div class="col-md-3">
-            <img src="~@/assets/recipies/recipie-1.jpg" alt class="img-sm" />
+            <img src="~@/assets/img/recipies/recipie-1.jpg" alt class="img-sm" />
           </div>
           <div class="col-md-9">
             <h6>Itališka daržovių sriuba „Minestrone“</h6>

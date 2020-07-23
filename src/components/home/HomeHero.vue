@@ -7,7 +7,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="~@/assets/home/home-hero-1.jpg" alt="First slide" />
+        <img class="d-block w-100" src="~@/assets/img/home/home-hero-1.jpg" alt="First slide" />
         <div class="carousel-caption d-none d-md-block">
           <h1>Dabar savo mėgiamus Tupperware produktus galite užsisakyti internetu!</h1>
           <router-link
@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="~@/assets/home/home-hero-2.jpg" alt="Second slide" />
+        <img class="d-block w-100" src="~@/assets/img/home/home-hero-2.jpg" alt="Second slide" />
         <div class="carousel-caption d-none d-md-block">
           <h1>Nauji pasiūlymai kiekvieną savaitę!</h1>
           <router-link
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="~@/assets/home/home-hero-3.jpg" alt="Third slide" />
+        <img class="d-block w-100" src="~@/assets/img/home/home-hero-3.jpg" alt="Third slide" />
         <div class="carousel-caption d-none d-md-block">
           <h1>Gaminkite kartu su Tupperware!</h1>
           <router-link
