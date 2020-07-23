@@ -1,63 +1,63 @@
 <template>
   <div class="grid">
     <div class="grid__item">
-      <img class src="~@/assets/img/categories/category-1.jpg" />
+      <img  src="~@/assets/img/categories/category-1.jpg" />
       <router-link
         class="btn btn-sm btn-primary d-flex justify-content-center rounded-pill"
         to="/categories"
       >Serviravimas</router-link>
     </div>
     <div class="grid__item">
-      <img class src="~@/assets/img/categories/category-2.jpg" />
+      <img  src="~@/assets/img/categories/category-2.jpg" />
       <router-link
         class="btn btn-sm btn-primary d-flex justify-content-center rounded-pill"
         to="/categories"
       >Buteliai / Gertuvės</router-link>
     </div>
     <div class="grid__item">
-      <img class src="~@/assets/img/categories/category-3.jpg" />
+      <img  src="~@/assets/img/categories/category-3.jpg" />
       <router-link
         class="btn btn-sm btn-primary d-flex justify-content-center rounded-pill"
         to="/categories"
       >Šaldymui</router-link>
     </div>
     <div class="grid__item">
-      <img class src="~@/assets/img/categories/category-1.jpg" />
+      <img  src="~@/assets/img/categories/category-1.jpg" />
       <router-link
         class="btn btn-sm btn-primary d-flex justify-content-center rounded-pill"
         to="/categories"
       >Serviravimas</router-link>
     </div>
     <div class="grid__item">
-      <img class src="~@/assets/img/categories/category-2.jpg" />
+      <img  src="~@/assets/img/categories/category-2.jpg" />
       <router-link
         class="btn btn-sm btn-primary d-flex justify-content-center rounded-pill"
         to="/categories"
       >Buteliai / Gertuvės</router-link>
     </div>
     <div class="grid__item">
-      <img class src="~@/assets/img/categories/category-3.jpg" />
+      <img  src="~@/assets/img/categories/category-3.jpg" />
       <router-link
         class="btn btn-sm btn-primary d-flex justify-content-center rounded-pill"
         to="/categories"
       >Šaldymui</router-link>
     </div>
     <div class="grid__item">
-      <img class src="~@/assets/img/categories/category-1.jpg" />
+      <img src="~@/assets/img/categories/category-1.jpg" />
       <router-link
         class="btn btn-sm btn-primary d-flex justify-content-center rounded-pill"
         to="/categories"
       >Serviravimas</router-link>
     </div>
     <div class="grid__item">
-      <img class src="~@/assets/img/categories/category-2.jpg" />
+      <img src="~@/assets/img/categories/category-2.jpg" />
       <router-link
         class="btn btn-sm btn-primary d-flex justify-content-center rounded-pill"
         to="/categories"
       >Buteliai / Gertuvės</router-link>
     </div>
     <div class="grid__item">
-      <img class src="~@/assets/img/categories/category-3.jpg" />
+      <img  src="~@/assets/img/categories/category-3.jpg" />
       <router-link
         class="btn btn-sm btn-primary d-flex justify-content-center rounded-pill"
         to="/categories"

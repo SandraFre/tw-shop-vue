@@ -24,6 +24,11 @@ Vue.use(VueRouter)
       component: () => import('../views/SingleProduct.vue')
     },
     {
+      path: '/products',
+      name: 'ProductList',
+      component: () => import('../views/ProductList.vue')
+    },
+    {
       path: '/login',
       name: 'Login',
       component: () => import('../views/Login.vue')
