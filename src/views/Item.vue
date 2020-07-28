@@ -3,24 +3,25 @@
     <div class="grid">
       <div class="grid__photo">
         <div>
-          <img class="img" src="~@/assets/img/singleProduct/prod1-1.jpg" alt />
+          <img class="img" :src="item.img" />
+          <!-- <img class="img" src="~@/assets/img/singleProduct/prod1-1.jpg" alt /> -->
         </div>
       </div>
       <div class="grid__title">
-        <h2 class="product-title">FreezerSmart rinkinys</h2>
+        <h2 class="product-title">{{item.name}}</h2>
       </div>
       <div class="grid__about">
-        <p class="product-dimensions">I:28,5cm P:19cm A:7cm</p>
-        <p class="product-code">S20756146</p>
-        <p class="product-description">Įveskite tvarką savo šaldiklyje su FreezerSmart rinkiniu</p>
+        <p class="product-size">{{item.size}}</p>
+        <p class="product-code">{{item.code}}</p>
+        <p class="product-description">{{item.description}}</p>
       </div>
       <div class="grid__price">
         <div class="row">
           <div class="col-md-6">
-            <h3 class="price price__sale">29,99 Eur</h3>
+            <h3 class="price price__sale">{{item.sale_price.toFixed(2)}}</h3>
           </div>
           <div class="col-md-6">
-            <h3 class="price">34,99 Eur</h3>
+            <h3 class="price">{{item.price.toFixed(2)}}</h3>
           </div>
         </div>
       </div>
@@ -32,6 +33,10 @@
           <div class="col-md-5">
             <div
               class="btn btn-sm btn-primary d-flex justify-content-center rounded-pill"
+              @click="addItems({
+                ...item,
+                count: Number(count)
+               })"
             >Į krepšelį</div>
           </div>
           <div class="col-md-5">
@@ -64,7 +69,17 @@
 
 <script>
 export default {
-  name: "product"
+  props: ["id", "img", "name", "size", "code", "description", "sale_price", "price", "item"],
+  computed: {
+    item() {
+      return this.$store.getters["productList/getItemById"](this.id);
+    },
+  },
+  methods: {
+    ...mapActions({
+      addItems: "cart/addItems"
+    })
+  }
 };
 </script>
 
@@ -74,7 +89,7 @@ export default {
   padding-top: 1.5rem;
   grid-template:
     "photo title"
-    "photo dimensions"
+    "photo size"
     "photo code"
     "photo about"
     "photo price"
@@ -89,8 +104,8 @@ export default {
   &__title {
     grid-area: title;
   }
-  &__dimensions {
-    grid-area: dimensions;
+  &__size {
+    grid-area: size;
   }
   &__code {
     grid-area: code;
