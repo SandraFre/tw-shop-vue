@@ -37,12 +37,13 @@
         </ul>
         <ul class="navbar-nav m-auto">
           <li>
-            <form class="form-inline">
+            <form class="form-inline" @submit.prevent="handleSearch">
               <input
                 class="form-control mr-sm-2"
                 type="search"
                 placeholder="Ieškoti"
                 aria-label="Search"
+                v-model="search"
               />
               <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Ieškoti</button>
             </form>
