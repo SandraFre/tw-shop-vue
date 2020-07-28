@@ -80,7 +80,7 @@ export default {};
   &__item {
     display: block;
     border: 1px solid $secondary;
-    height: 40vh;
+    height: 30vh;
     padding: 1rem;
     position: relative;
 

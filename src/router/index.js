@@ -38,6 +38,11 @@ Vue.use(VueRouter)
       name: 'Register',
       component: () => import('../views/Register.vue')
     },
+    {
+      path: '/cart',
+      name: 'Cart',
+      component: () => import('../views/Cart.vue')
+    }
 ]
 
 const router = new VueRouter({
