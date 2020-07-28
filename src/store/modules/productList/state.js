@@ -2,7 +2,7 @@ export default () => ({
   items: [],
   selectedItems: [],
   selectedItemCount: 0,
-  searchQuery: 'Ivestas tekstas paieškoje',
+  searchQuery: [],
   isLoading: false,
   filters: [],
   itemsPerPageOptions: [
